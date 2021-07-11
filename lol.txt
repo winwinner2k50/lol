@@ -1,0 +1,31 @@
+#include <iostream>
+#include <fstream>
+#include <stack>
+#include <cmath>
+#include <string>
+#include <algorithm>
+#include <stack>
+#include <vector>
+#include <iomanip>
+#include <map>
+#include <set>
+
+using namespace std;
+
+int main()
+{
+    int n, a[1000],s=0, s1=0, a1[100], a2[100], a3[100];
+    cin >> n;
+    for (int i=0; i<n; i++)
+    {
+        cin >> a[i];
+        s+=a[i];
+    }
+    s=s/3;
+    sort(a,a+n);
+    for (int i=n-1; i>=0; i++)
+    {
+
+    }
+    return 0;
+}
